@@ -13,7 +13,7 @@ async showPrompt(item?, index?) {
     const alert = await this.alertController.create({
       cssClass: 'my-custom-class',
       header: item ? 'Edit Item in Grocery List' : 'Add Item',
-      message: item? "Please edit item.name in the grocery list." : "Please input item.name in the grocery list.", 
+      message: item? "Please edit item in the grocery list." : "Please input item details in the grocery list.", 
       inputs: [
         {
           name: 'name',
